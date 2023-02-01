@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+/* *{
+
+    border: 1px solid blue;
+} */
+
+body{
+    box-sizing: border-box;
+    background-color: #F2EAE2
+}
+
+
+.main{
+    display: flex;
+    width: 100%;
+    height: 80vw;
+    justify-content: center;
+    align-items: center;
+
+}
+.container {
+
+    width: 100%;
+    display: flex;
+    /* border: 1px solid red; */
+    border-radius: 12px;
+    /* align-items: center; */
+    /* justify-content: auto; */
+    /* position:relative; */
+    width: 600px;
+    height: 450px;
+    /* left: 420px; */
+    /* top: 175px; */
+}
+
+h2, p, button{
+    margin: 0 0;
+ 
+}
+img{
+    width: 100%;
+    /* contain: fill; */
+    border-radius: 12px 0px 0 12px;
+}
+.textblock {
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    border-radius: 0 12px 12px 0;
+}
+
+.ImageBlock {
+    width: 50%;
+    height: 100%;
+    
+}
+.category{
+    padding-top: 20px ; 
+    margin-left: 30px ;
+    
+    /* margin-top: 0;
+    margin-bottom: 0; */
+    font-family: 'Montserrat', serif;
+}
+.title{
+    align-self: left;
+    font-family: 'fraunces', serif;
+    padding-top: 30px;
+    margin-left: 30px;
+    
+    width: 60%;
+}
+
+.title h2{
+    
+    font-weight: bolder;
+    font-size: 28px;
+    line-height: 30px;
+}
+#Perfume p {
+    align-self: left;
+    font-size: small;
+    letter-spacing: 6px;
+}
+.description p {
+    padding-top: 20px;
+    /* padding-bottom: 0px; */
+    margin-left: 30px;
+    width: 75%;
+    font-family: 'Montserrat', serif;
+    font-size:smaller;
+    line-height: 24px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.saleprice {
+    padding: 10px 10px;
+    margin: 10px 10px;
+    color: green;
+    font-family: 'fraunces', serif;
+    font-size:xx-large;
+    font-weight: bold;
+}
+.originalprice {
+    padding: 10px 10px;
+    margin: 10px 10px;
+    font-family: 'Montserrat', serif;
+    text-decoration: line-through;
+}
+button {
+    padding: 14px 2px;
+    width: 240px;
+    margin-top: 8px;
+    /* margin-left: 30px; */
+    align-self: center;
+    /* justify-content: center; */
+    background-color: rgb(61, 129,104);
+    font-family: 'Montserrat', serif;
+    color: white;
+    border: none;
+    border-radius: 6px;  
+}
+button:hover {
+    background-color:rgb(5, 67, 5); 
+    cursor: pointer;
+}
+
+div .shoppingcart{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img#cart{
+    height:8%;
+    width:8%;
+    border-radius: 0px;
+    padding: 2px 10px;
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ImageBlock{
+        width: 100%;
+        height: 100%;
+    }
+
+    img{
+        contain: fill;
+        border-radius: 12px 12px 0 0 ;
+    }
+    .textblock{
+
+        width: 100%;
+        height: 900px;
+        padding-bottom: 10px;
+        border-radius: 0 0 12px 12px;
+        
+    }
+
+    .title{
+        padding-top: 10px;
+        width: 70%;
+        
+    }
+
+    .description p {
+        padding-top: 5px;
+        /* padding-bottom: 0px; */
+        margin-left: 30px;
+        width: 75%;
+        font-family: 'Montserrat', serif;
+        font-size:smaller;
+        line-height: 24px;
+    }
+    .price{
+        display: flex;
+        justify-content: flex-start;
+
+        
+    }
+    .saleprice{
+        width: 80%;
+        margin-left: 28px;
+        padding: 0px 0px;
+        
+    }
+
+    button {
+        /* padding-top: 14px;
+        padding-bottom: 10px; */
+        width: 80%;
+        margin-top: 8px;
+        /* margin-left: 30px; */
+     }
+     div .shoppingcart{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    img#cart{
+        height:8%;
+        width:8%;
+        border-radius: 0px;
+        padding: 2px 10px;
+    
+    
+    }
+    }
