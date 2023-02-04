@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://codenithin.github.io/Product_card/)
+- Solution URL: [Solution URL](https://codenithin.github.io/Product_card/)
 
 ## My process
 
